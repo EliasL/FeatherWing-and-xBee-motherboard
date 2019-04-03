@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 28)
+    (drawings 30)
     (tracks 144)
     (zones 0)
     (modules 18)
@@ -1268,6 +1268,12 @@
     (pad "" smd rect (at -4.2 2.25) (size 1.6 1.4) (layers F.Cu F.Paste F.Mask))
   )
 
+  (gr_text TX (at 97.324 82.666 90) (layer F.SilkS) (tstamp 5CA4AB27)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text RX (at 94.924 82.666 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text RESET (at 135.324 127.066) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -1337,6 +1343,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
 
+  (segment (start 139.64331 120.116) (end 139.59831 120.161) (width 0.25) (layer F.Cu) (net 0))
   (segment (start 97.1008 130.238) (end 98.8134 130.238) (width 0.25) (layer F.Cu) (net 36))
   (segment (start 116.3616 136.0888) (end 116.3708 136.098) (width 0.25) (layer F.Cu) (net 36))
   (segment (start 116.3616 131.762) (end 116.3616 136.0888) (width 0.25) (layer F.Cu) (net 36))
@@ -1472,7 +1479,6 @@
   (segment (start 115.6708 129.761) (end 115.6708 130.511) (width 0.25) (layer F.Cu) (net 51))
   (segment (start 113.7708 136.098) (end 113.7708 132.762) (width 0.25) (layer F.Cu) (net 51))
   (segment (start 113.7708 132.762) (end 113.7708 131.762) (width 0.25) (layer F.Cu) (net 51))
-  (segment (start 139.64331 120.116) (end 139.59831 120.161) (width 0.25) (layer F.Cu) (net 0))
   (segment (start 141.874 124.716) (end 139.64331 124.716) (width 0.25) (layer F.Cu) (net 55))
   (segment (start 118.044 115.621) (end 117.294 115.621) (width 0.25) (layer F.Cu) (net 56))
   (segment (start 119.864 117.441) (end 118.044 115.621) (width 0.25) (layer F.Cu) (net 56))

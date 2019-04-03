@@ -1,0 +1,5 @@
+nRF er feil vei - ok
+USB gir 5v, max 3.6v - ok
+UART leser gir også 5v - ok
+Kondensator i paralell - ok
+
